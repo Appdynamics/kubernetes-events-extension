@@ -1,11 +1,27 @@
+# Number of Threads for the Extension
 numberOfThreads: 1
-metricPrefix:  "Custom Metrics|KubernetesEvents|"
-kubeClientConfig: "$HOME/.kube/config"
 
+# This will create it in specific Tier aka Component. Replace <COMPONENT_ID>.
+# Please make sure to have a trailing |.
+# To find out the COMPONENT_ID, please see the screen shot here https://docs.appdynamics.com/display/latest/Build+a+Monitoring+Extension+Using+Java
+#metricPrefix: "Server|Component:<COMPONENT_ID>|Custom Metrics|KubernetesEvents|"
+metricPrefix:  "Custom Metrics|KubernetesEvents|"
+
+# Path to your kubectl Client configuration
+kubeClientConfig: "$HOME/.kube/config"
+# Events API Key obtained from AppDynamics --> Analytics --> Configuration API Keys --> Add
+# The API Key you create needs to be able to Manage and Publish Custom Analytics Events
 eventsApiKey: ""
+# Global Account Name obtained from AppDynamics --> Settings --> License --> Accounts --> Global Account Name
 accountName: ""
+# Name of your Custom Analytics Events Schema
 eventsSchemaName: "kubernetes_events"
-eventsUrl: ""
+
+# Events Service Endpoint. These Default settings are for SaaS Users. Change if you are on Premise
+#eventsUrl: "https://fra-ana-api.saas.appdynamics.com:443"
+eventsUrl: "https://analytics.api.appdynamics.com:443"
+
+# This is the Schema Definition that will be created if not already present
 eventsSchemaDefinition: '{
    "schema" : {
       "firstTimestamp": "date",
