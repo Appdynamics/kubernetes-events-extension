@@ -56,6 +56,13 @@ class Utilities {
                     objectNode = checkAddObject(objectNode, item.getMetadata().getNamespace(), "namespace");
                     objectNode = checkAddObject(objectNode, item.getMetadata().getResourceVersion(), "resourceVersion");
                     objectNode = checkAddObject(objectNode, item.getMetadata().getSelfLink(), "selfLink");
+                    objectNode = checkAddObject(objectNode, item.getType(), "type");
+                    objectNode = checkAddObject(objectNode, item.getReason(), "reason");
+                    objectNode = checkAddObject(objectNode, item.getCount(), "count");
+                    objectNode = checkAddObject(objectNode, item.getSource().getComponent(), "source_component");
+                    objectNode = checkAddObject(objectNode, item.getSource().getHost(), "source_host");
+
+
                     arrayNode.add(objectNode);
                     Globals.lastElementSelfLink = item.getMetadata().getSelfLink();
                 }

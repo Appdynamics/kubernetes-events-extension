@@ -47,6 +47,10 @@ eventsSchemaDefinition: '{
       "ownerReferences": "string",
       "resourceVersion": "string",
       "selfLink": "string",
+      "type": "string",
+      "count": "string",
+      "source_component": "string",
+      "source_host": "string",
       "reason": "string"
    }
 }'
