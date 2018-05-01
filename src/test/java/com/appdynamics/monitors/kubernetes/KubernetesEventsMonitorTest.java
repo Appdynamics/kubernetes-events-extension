@@ -77,6 +77,7 @@ public class KubernetesEventsMonitorTest {
                 null,
                 null,
                 null);
+
         String payload = Utilities.createEventPayload(eventList).toString();
 
         if(!payload.equals("[]")){
