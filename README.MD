@@ -27,7 +27,8 @@ Either [Download the Extension from the Github release](https://github.com/micha
     # The API Key you create needs to be able to Manage and Publish Custom Analytics Events
     eventsApiKey: ""
 
-    # Global Account Name obtained from AppDynamics --> Settings --> License --> Accounts --> Global Account Name
+    # Global Account Name obtained from 
+    # AppDynamics --> Settings --> License --> Accounts --> Global Account Name
     accountName: ""
   ```
 
