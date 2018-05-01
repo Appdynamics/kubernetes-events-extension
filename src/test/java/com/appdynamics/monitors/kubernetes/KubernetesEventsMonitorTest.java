@@ -57,7 +57,7 @@ public class KubernetesEventsMonitorTest {
         String apiKey = config.get("eventsApiKey");
         String accountName = config.get("accountName");
         URL publishUrl = Utilities.getUrl(config.get("eventsUrl") + "/events/publish/" + config.get("eventsSchemaName"));
-        URL schemaUrl = Utilities.getUrl(config.get("eventsUrl") + "/events/schema/" + "wrong2");
+        URL schemaUrl = Utilities.getUrl(config.get("eventsUrl") + "/events/schema/" + config.get("eventsSchemaName"));
         String requestBody = config.get("eventsSchemaDefinition");
 
         if(EventsRestOperation.doRequest(schemaUrl, accountName, apiKey, "", "GET") == null){
