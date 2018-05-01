@@ -52,11 +52,11 @@ Either [Download the Extension from the Github release](https://github.com/micha
 </tr>
 <tr>
 <td class='confluenceTd'> src/main/java </td>
-<td class='confluenceTd'> Contains source code for the Azure monitoring extension </td>
+<td class='confluenceTd'> Contains source code for the Kubernetes Events monitoring extension </td>
 </tr>
 <tr>
 <td class='confluenceTd'> src/test/java </td>
-<td class='confluenceTd'> Contains test code for the Azure monitoring extension </td>
+<td class='confluenceTd'> Contains test code for the Kubernetes Events monitoring extension </td>
 </tr>
 <tr>
 <td class='confluenceTd'> target </td>
