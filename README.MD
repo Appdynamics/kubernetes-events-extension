@@ -12,7 +12,7 @@ Monitor Metrics provided by the Kubernetes Events API and let them report into t
 
 ## Installation
 
-Either [Download the Extension from the Github release](https://github.com/michaelenglert/kubernetes-events-extension/releases) or Build from Source.
+Either [Download the Extension from the latest Github release](https://github.com/Appdynamics/kubernetes-events-extension/files/2093924/KubernetesEventsMonitor-0.2.zip) or Build from Source.
 
 1. Deploy the `KuberentesEventsMonitor-<VERSION>.zip` file into the `<machine agent home>/monitors` directory.
 
@@ -27,7 +27,7 @@ Either [Download the Extension from the Github release](https://github.com/micha
     # The API Key you create needs to be able to Manage and Publish Custom Analytics Events
     eventsApiKey: ""
 
-    # Global Account Name obtained from 
+    # Global Account Name obtained from
     # AppDynamics --> Settings --> License --> Accounts --> Global Account Name
     accountName: ""
   ```
