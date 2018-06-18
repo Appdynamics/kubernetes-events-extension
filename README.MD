@@ -10,7 +10,7 @@ Monitor Metrics provided by the Kubernetes Events API and let them report into t
 
  * This extension requires the Java Machine Agent
  * The AppDynamics platform needs the Events Service set up
- * You will need Transaction Analytics/APM Peak licenses to consume the data
+ * You will need one or more Transaction Analytics/APM Peak licenses to consume the data
 
 ## Installation
 
