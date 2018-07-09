@@ -2,3 +2,5 @@
 *.iml
 target/
 integration-test*.yml
+screenshots/
+*.gddoc
