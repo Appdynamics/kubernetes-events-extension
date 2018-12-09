@@ -16,9 +16,9 @@ Monitor Metrics provided by the Kubernetes Events API and let them report into t
 
 Either [Download the Extension from the latest Github release](https://github.com/Appdynamics/kubernetes-events-extension/files/2093924/KubernetesEventsMonitor-0.2.zip) or Build from Source.
 
-1. Deploy the `KuberentesEventsMonitor-<VERSION>.zip` file into the `<machine agent home>/monitors` directory.
+1. Deploy the `KubernetesEventsMonitor-<VERSION>.zip` file into the `<machine agent home>/monitors` directory.
 
-  `> unzip KuberentesEventsMonitor-<VERSION>.zip -d <machine agent home>/monitors/`
+  `> unzip KubernetesEventsMonitor-<VERSION>.zip -d <machine agent home>/monitors/`
 
 2. Set up `config.yml`. At minimum this is:
   ```
@@ -40,7 +40,7 @@ Either [Download the Extension from the latest Github release](https://github.co
 
 1. Clone this repository
 2. Run `mvn -DskipTests clean install`
-3. The `KuberentesEventsMonitor-<VERSION>.zip` file can be found in the `target` directory
+3. The `KubernetesEventsMonitor-<VERSION>.zip` file can be found in the `target` directory
 
 ## Directory Structure
 
